@@ -59,7 +59,7 @@ export default function Library(){
   return(
     
     <View>
-      <Text style={{padding:5, backgroundColor:"green",color:"white"}}>Today's Hours</Text>
+      <Text style={{padding:5, backgroundColor:"green",color:"white"}}>This week's Hours</Text>
       <FlatList
         data={data}
         renderItem={renderItem}
